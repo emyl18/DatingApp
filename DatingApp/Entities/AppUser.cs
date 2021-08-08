@@ -10,6 +10,9 @@ namespace DatingApp.Entities
         public int id { get; set; }
         public string userName { get; set; }
         public string name { get; set; }
+        public byte[] passwordHas { get; set; }
+        public byte[] passwordSalt { get; set; }
+
 
     }
 }
